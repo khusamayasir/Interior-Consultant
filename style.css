@@ -146,6 +146,35 @@ footer {
     color: #f7542e;
 }
 
+@media (max-width: 1284.0px) {
+
+    .nav-items {
+      display: none;
+    }
+  
+    .open-slide {
+      padding-inline-end: 20px;
+    }
+  
+    .image {
+      padding-inline-end: 10px;
+    }
+  
+    .container2 {
+      position: absolute;
+      right: 27px;
+      top: 580px;
+      padding: 20px 30px;
+      inline-size: 230px;
+      background-color: #181719;
+      box-shadow: 0px 4px 4px 0px #00000040;
+    }
+  
+    footer { 
+      margin-block-start: 125px;
+    }
+}
+
 @media (min-width: 1285px) {
     
     .container1 {
