@@ -69,7 +69,7 @@ a:hover{
     color: #F2F2F2;
 }
 
-.container1{
+.container-I {
     margin-inline-start: 20px;
     margin-inline-end: 10px;
 }
@@ -96,30 +96,30 @@ a:hover{
     padding-inline-start: 6px;
 }
 
-.image2 {
+.image-II {
     border-radius: 100%;
 }
 
-.information2 {
+.information-II {
     display: flex;
 }
 
-.information2-description {
+.information-II-desc {
     font-family: 'Montserrat', sans-serif;
     padding-inline-start: 15px;
     padding-block-start: 8px;
     line-height: 17.07px;
 }
   
-.information2-description h3 {
+.information-II-desc h3 {
     font-size: 14px;
 }
   
-.information2-description p {
+.information-II-desc p {
     font-size: 12px;
 }
 
-.information3 {
+.information-III {
     font-family: 'Lora', serif;
     padding-block-start: 7px;
 }
@@ -160,7 +160,7 @@ footer {
       padding-inline-end: 10px;
     }
   
-    .container2 {
+    .container-II {
       position: absolute;
       right: 27px;
       top: 580px;
@@ -177,7 +177,7 @@ footer {
 
 @media (min-width: 1285px) {
     
-    .container1 {
+    .container-I {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 1em;
@@ -213,7 +213,7 @@ footer {
       display: none;
     }
   
-    .container2 {
+    .container-II {
       inline-size: 380px;
       background-color: #181719;
       padding: 30px 10px;
