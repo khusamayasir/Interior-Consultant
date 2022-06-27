@@ -25,3 +25,17 @@ img{
     font-family: 'Crimson Pro', serif;
 }
 
+
+.side-nav {
+    block-size: 100%;
+    inline-size: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #181719;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-block-start: 90px;
+    transition: 0.5s;
+}
