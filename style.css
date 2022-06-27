@@ -113,3 +113,8 @@ a:hover{
 .information2-description p {
     font-size: 12px;
 }
+
+.information3 {
+    font-family: 'Lora', serif;
+    padding-block-start: 7px;
+}
