@@ -73,3 +73,15 @@ a:hover{
     margin: 40px 0px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.information h1{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    margin-block-end: 30px;
+}
+
+.information p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-block-end: 2em;
+}
