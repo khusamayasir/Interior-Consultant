@@ -145,3 +145,56 @@ footer {
 .devchallenges-link:hover {
     color: #f7542e;
 }
+
+@media (min-width: 1285px) {
+    
+    .container1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+  
+    .information {
+      padding-block-start: 200px;
+    }
+  
+    .image {
+      padding-block-start: 30px;
+    }
+  
+    .information h1 {
+      font-size: 48px;
+    }
+  
+    .nav-items {
+      margin-inline-end: 3em;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+    }
+  
+    .information {
+      inline-size: 410px;
+    }
+  
+    .image{
+      margin-block-start: 40px;
+    }
+  
+    .open-slide {
+      display: none;
+    }
+  
+    .container2 {
+      inline-size: 380px;
+      background-color: #181719;
+      padding: 30px 10px;
+      position: absolute;
+      right: 20px;
+      bottom: 5px;
+      box-shadow: 0px 4px 4px 0px #00000040;
+    }
+  
+    footer {
+      margin-block-start: 60px;
+    }
+}
