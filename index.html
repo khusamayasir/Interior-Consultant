@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <script src="main.js"></script>
 
     <title>Interior Consultant</title>
   </head>
@@ -28,11 +28,11 @@
         </nav>
 
         <span class="open-slide">
-          <a href="#" id="btn">☰</a>
+          <a href="#" id="btn" onClick="openSideMenu()">☰</a>
         </span>
 
         <div id="side-menu" class="side-nav">
-          <a href="#" class="btn-close" >&times;</a>
+          <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
           <a href="#">Home</a>
           <a href="#">Collection</a>
           <a href="#">About</a>
@@ -61,7 +61,7 @@
             <img class="image-II" src="./images/photo2.png" alt="an-image"  width="62" height="53">
             <div class="information-II-desc">
               <h5>Aliza Webber</h5>
-              <p>interior designer</p>
+              <p>Interior designer</p>
             </div>
           </div>
           <div class="information-III">
