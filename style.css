@@ -39,3 +39,18 @@ img{
     padding-block-start: 90px;
     transition: 0.5s;
 }
+
+.side-nav a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    margin-block-end: 50px;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 42px;
+    color: #F2F2F2;
+}
