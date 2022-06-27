@@ -74,14 +74,42 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
 }
 
-.information h1{
+.information h1 { 
     font-family: 'Lora', serif;
     font-size: 36px;
     margin-block-end: 30px;
 }
 
-.information p{
+.information p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-block-end: 2em;
+}
+
+.arrow {
+    display: inline;
+    padding-inline-start: 6px;
+}
+
+.image2 {
+    border-radius: 100%;
+}
+
+.information2 {
+    display: flex;
+}
+
+.information2-description {
+    font-family: 'Montserrat', sans-serif;
+    padding-inline-start: 15px;
+    padding-block-start: 8px;
+    line-height: 17.07px;
+}
+  
+.information2-description h3 {
+    font-size: 14px;
+}
+  
+.information2-description p {
+    font-size: 12px;
 }
