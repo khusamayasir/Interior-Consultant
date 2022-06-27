@@ -46,7 +46,7 @@ You can see the demo of the page at the start. It help me to polish my skills in
 
 - HTML5
 - CSS3
-- Js
+- JS
 
 ## Features
 
