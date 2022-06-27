@@ -8,9 +8,9 @@ body{
     color: #FFFFFF;
 }
 
-img{
-    max-inline-size: 100%;
-    block-size: auto;
+header{
+    display: flex;
+    justify-content: space-between;
 }
 
 .heading{
@@ -25,6 +25,20 @@ img{
     font-family: 'Crimson Pro', serif;
 }
 
+img{
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover{
+  border-bottom: 2px #FFFFFF solid;
+  padding-block-end: 5px;
+}
 
 .side-nav {
     block-size: 100%;
@@ -53,4 +67,9 @@ img{
     right: 22px;
     font-size: 42px;
     color: #F2F2F2;
+}
+
+.information {
+    margin: 40px 0px;
+    font-family: 'Montserrat', sans-serif;
 }
