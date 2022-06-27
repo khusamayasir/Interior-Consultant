@@ -18,9 +18,10 @@ img{
     margin-inline-start: 2em;
 }
 
-.heading p{
+.heading h3{
     border: 1px #FFFFFF solid;
     padding: 5px;
     font-size: 14px;
     font-family: 'Crimson Pro', serif;
 }
+
