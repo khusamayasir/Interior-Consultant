@@ -3,5 +3,5 @@ function openSideMenu() {
 }
 
 function closeSideMenu() {
-    document.getElementById("side-menu");
+    document.getElementById("side-menu").style.width = "0";
 }
