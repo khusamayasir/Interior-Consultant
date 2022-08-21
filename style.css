@@ -138,11 +138,7 @@ footer {
     color: white;
 }
   
-.username-github-link:hover {
-    color: black;
-}
-
-.devchallenge-link:hover {
+.username-github-link:hover, .devchallenge-link:hover {
     color: #f7542e;
 }
 
